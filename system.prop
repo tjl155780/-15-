@@ -1,0 +1,6 @@
+# 本机 ROM 的输入重采样开关（出厂 1）：关闭后触摸事件不再等下一帧对齐，省约 1 帧输入延迟
+persist.sys.input.resample=0
+# 通用输入重采样开关（部分 ROM 读这个）
+ro.input.noresample=1
+# 游戏不套默认帧率上限（配合 extreme_gt 的锁帧解除）
+debug.graphics.game_default_frame_rate.disabled=1
